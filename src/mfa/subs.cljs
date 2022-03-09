@@ -3,6 +3,6 @@
    [re-frame.core :as re-frame]))
 
 (re-frame/reg-sub
- ::word-to-guess
+ ::name
  (fn [db]
-   (:word-to-guess db)))
+   (:name db)))
